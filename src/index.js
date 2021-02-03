@@ -9,7 +9,7 @@ app.set('port', process.env.PORT || 3000);
 
 // Procesamiento 
 app.use(express.json());
-app.use(cors());
+app.use(cors(https://front-prueba-fl3cxmjv7.vercel.app));
 
 // Rutas
 app.use(require('./routes/facturas-rutas.js'));
